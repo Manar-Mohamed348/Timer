@@ -1,0 +1,90 @@
+body {
+    background-color: #787C96;
+}
+
+.timer {
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+    transform: translateY(160%);
+    -webkit-transform: translateY(160%);
+    -moz-transform: translateY(160%);
+    -ms-transform: translateY(160%);
+    -o-transform: translateY(160%);
+}
+
+.timer .date {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border-color: #565a7b;
+    border-style: solid;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    transform: translateY(360%);
+    -webkit-transform: translateY(360%);
+    -moz-transform: translateY(360%);
+    -ms-transform: translateY(360%);
+    -o-transform: translateY(360%);
+}
+
+button img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 19px;
+    left: 20px;
+}
+
+button:hover {
+    background-color: #565a7b;
+}
+
+@media(max-width: 768px) {
+    .timer {
+        font-size: 60px;
+        text-align: center;
+        align-items: center;
+        transform: translateY(230%);
+        -webkit-transform: translateY(230%);
+        -moz-transform: translateY(230%);
+        -ms-transform: translateY(230%);
+        -o-transform: translateY(230%);
+    }
+
+    .timer .date {
+        font-size: 24px;
+    }
+
+    button {
+        width: 60px;
+        height: 60px;
+        transform: translateY(440%);
+        -webkit-transform: translateY(440%);
+        -moz-transform: translateY(440%);
+        -ms-transform: translateY(440%);
+        -o-transform: translateY(440%);
+    }
+
+    button img {
+        width: 24px;
+        height: 24px;
+    }
+}
